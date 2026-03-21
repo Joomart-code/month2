@@ -27,7 +27,7 @@ car_mustang = Car(color='black', model='Ford Mustang')
 car_mustang._test()
 print(car_mustang.color)
 car_mustang.drive_to('Karakol')
-print(car_mustang._Car__max_speed) # нельзя оставлять такой код, это просто для проверок
+#print(car_mustang._Car__max_speed) # нельзя оставлять такой код, это просто для проверок
 # print(car_mustang.__max_speed) # ошибка - доступ к приватному атрибуту
 # car_mustang.__test2()
 # car_mustang.__max_speed = 50 # так делать неправильно, может привести к ошибкам
